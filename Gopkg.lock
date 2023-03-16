@@ -3,7 +3,7 @@
 
 [[projects]]
   digest = "1:e57a08286ef58a16dc12b8d2cbe49cc6360124d7c419756aeae28464b2db4cab"
-  name = "github.com/neoql/workerpool"
+  name = "github.com/alxcer/workerpool"
   packages = ["."]
   pruneopts = "UT"
   revision = "5c23a1fd360237f561122c9ce410b342fb6f2dc3"
@@ -37,7 +37,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/neoql/workerpool",
+    "github.com/alxcer/workerpool",
     "github.com/willf/bloom",
   ]
   solver-name = "gps-cdcl"

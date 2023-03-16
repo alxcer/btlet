@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/alxcer/btlet/bencode"
-	"github.com/neoql/workerpool"
+	"github.com/alxcer/workerpool"
 )
 
 var defaultBootstrap = []string{

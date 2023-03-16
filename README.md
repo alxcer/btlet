@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ go get -v github.com/neoql/btlet
+$ go get -v github.com/alxcer/btlet
 ```
 
 ## Dependences
