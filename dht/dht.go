@@ -10,9 +10,12 @@ import (
 )
 
 var defaultBootstrap = []string{
+	"205.185.126.9:34966",
 	"router.bittorrent.com:6881",
 	"router.utorrent.com:6881",
 	"dht.transmissionbt.com:6881",
+	"router.bitcomet.com:6881",
+	"dht.aelitis.com:6881",
 }
 
 // Node is dht node.
