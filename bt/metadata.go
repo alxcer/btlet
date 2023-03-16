@@ -3,7 +3,7 @@ package bt
 import (
 	"strings"
 
-	"github.com/neoql/btlet/bencode"
+	"github.com/alxcer/btlet/bencode"
 )
 
 // RawMeta is raw metadata

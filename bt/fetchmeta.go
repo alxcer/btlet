@@ -1,14 +1,14 @@
 package bt
 
 import (
+	"bufio"
 	"bytes"
 	"context"
 	"crypto/sha1"
 	"errors"
-	"bufio"
 
-	"github.com/neoql/btlet/bencode"
-	"github.com/neoql/btlet/tools"
+	"github.com/alxcer/btlet/bencode"
+	"github.com/alxcer/btlet/tools"
 )
 
 // FetchMetadata fetch metadata from host.
@@ -140,7 +140,6 @@ func (fm *FetchMetaExt) AfterHandshake(hs ExtHSGetter, sender *ExtMsgSender) err
 	piecesNum := getPiecesNum(size)
 	fm.pieces = make([][]byte, piecesNum)
 
-
 	for i := 0; i < piecesNum; i++ {
 		m := map[string]int{
 			"msg_type": request,
@@ -157,7 +156,6 @@ func (fm *FetchMetaExt) AfterHandshake(hs ExtHSGetter, sender *ExtMsgSender) err
 			return err
 		}
 	}
-
 
 	return nil
 }

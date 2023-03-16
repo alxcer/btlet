@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neoql/btlet/bencode"
-	"github.com/neoql/btlet/tools"
+	"github.com/alxcer/btlet/bencode"
+	"github.com/alxcer/btlet/tools"
 	"github.com/willf/bloom"
 )
 
@@ -38,8 +38,8 @@ type SybilCrawler struct {
 // NewSybilCrawler returns a new Crawler instance.
 func NewSybilCrawler(host string) *SybilCrawler {
 	return &SybilCrawler{
-		host:   host,
-		nodeID: tools.RandomString(20),
+		host:       host,
+		nodeID:     tools.RandomString(20),
 		maxWorkers: 65535,
 	}
 }

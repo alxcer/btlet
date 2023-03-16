@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/neoql/btlet/bt"
-	"github.com/neoql/btlet/dht"
-	"github.com/neoql/btlet/tools"
+	"github.com/alxcer/btlet/bt"
+	"github.com/alxcer/btlet/dht"
+	"github.com/alxcer/btlet/tools"
 )
 
 // Pipeline is used for handle meta

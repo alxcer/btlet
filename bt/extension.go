@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/neoql/btlet/bencode"
+	"github.com/alxcer/btlet/bencode"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/neoql/btlet"
-	"github.com/neoql/btlet/bt"
+	"github.com/alxcer/btlet"
+	"github.com/alxcer/btlet/bt"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neoql/btlet/bencode"
+	"github.com/alxcer/btlet/bencode"
 )
 
 // Handle used for operate dht.

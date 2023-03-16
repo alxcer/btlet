@@ -5,8 +5,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/neoql/btlet/bencode"
-	"github.com/neoql/btlet/tools"
+	"github.com/alxcer/btlet/bencode"
+	"github.com/alxcer/btlet/tools"
 )
 
 // NodePtrSlice is []*Node
@@ -62,7 +62,7 @@ func PackNodes(nodes []*Node) (string, error) {
 	if len(nodes) == 0 {
 		return "", nil
 	}
-	
+
 	sb := strings.Builder{}
 	for _, node := range nodes {
 		s, err := tools.EncodeCompactIPPortInfo(node.Addr.IP, node.Addr.Port)

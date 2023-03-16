@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/neoql/btlet/bencode"
+	"github.com/alxcer/btlet/bencode"
 	"github.com/neoql/workerpool"
 )
 

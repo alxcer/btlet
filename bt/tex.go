@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/neoql/btlet/bencode"
+	"github.com/alxcer/btlet/bencode"
 )
 
 type texMessage struct {
